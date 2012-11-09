@@ -4,8 +4,10 @@
 	<meta charset="utf-8">
 	<title>Page Title</title>
 	<script src="gallery_data.js"></script>
-	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
-		for(var i=0; i < data[thumb].length; i++)
+	<script type="text/javascript" charset="utf-8" async defer>
+		for(var i=0; i < data.length; i++){
+			document.write(data[i]["thumb"] + '<br>');
+		}
 	
 	
 	</script>
